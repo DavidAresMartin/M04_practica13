@@ -1,4 +1,6 @@
 class School:
+
+    # aqui afegeixo els atributs que vulgui de school
     def __int__(self, alumnos, profesores, materias, clases, hora_entrada, hora_salida):
         self.alumnos = alumnos
         self.profesores = profesores
@@ -7,7 +9,7 @@ class School:
         self.hora_entrada = hora_entrada
         self.hora_salida = hora_salida
 
-
+    # aqui esta el metode a l'hora de cridar per pantalla el que vull que surti
     def info(self):
         print("Hi ha  " + self.alumnos + "alumnes a l'escola")
         print("Hi ha  " + self.profesores + "profesors a l'escola")
@@ -16,9 +18,7 @@ class School:
         print("L'hora d'entrada de l'escola es a les  " + self.hora_entrada)
         print("L'hora de salida de l'escola es a les " + self.hora_salida)
 
-
-
-
+    # aquest es el apratat de els get/set
     def getAlumnos(self):
         return self.alumnos
 
