@@ -1,4 +1,6 @@
 class Animal:
+
+    # aqui afegeixo els atributs que vulgui de animals
     def __int__(self, nombre, especie, tipo, edad, color, vida):
         self.nombre = nombre
         self.especie = especie
@@ -7,6 +9,8 @@ class Animal:
         self.color = color
         self.vida = vida
 
+
+#aquest es el apratat de els get/set
     def getNombre(self):
         return self.nombre
 
@@ -45,6 +49,7 @@ class Animal:
         self.vida = vida
 
 
+#aqui esta el metode a l'hora de cridar per pantalla el que vull que surti
     def salutacio(self):
         print("El nom del animal és: " + self.nombre)
         print("La seva especie  és: " + self.especie)

@@ -1,4 +1,6 @@
 class Vehicle:
+
+    #aqui afegeixo els atributs que vulgui de vehicles
     def __int__(self, placa, tipo, marca, color, model, ocupantes):
         self.placa = placa
         self.tipo = tipo
@@ -7,7 +9,7 @@ class Vehicle:
         self.model = model
         self.ocupantes = ocupantes
 
-
+    # aqui esta el metode a l'hora de cridar per pantalla el que vull que surti
     def parts(self):
         print("La placa del vehicle és: " + self.placa)
         print("El tipus és: " + self.tipo)
@@ -16,9 +18,7 @@ class Vehicle:
         print("El model  és: " + self.model)
         print("Els ocupants que pot tenir són" + self.ocupantes)
 
-
-
-
+    # aquest es el apratat de els get/set
     def getPlaca(self):
         return self.placa
 
